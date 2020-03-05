@@ -1,0 +1,153 @@
+
+.topnav {
+  position: fixed;
+  top:0;
+  width:100vw;
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 8px solid #f5dbcc;
+}
+
+.topnav a {
+  float: right;
+  color: #d14428;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: apercu, sans-serif;
+  font-weight:600;
+}
+
+.topnav a:hover {
+  background-color: #d14428;
+  color: black;
+}
+
+.topnav-centered a {
+  float: left;
+  position: none;
+  left: 50%;
+  right:50%;
+
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+.landing {
+	width:100vw;
+	height:75vh;
+	background-color:#d14428;
+	}
+
+
+h1 {
+	color:#DEC0B8;
+	padding-left:15px;
+	padding-top:15px;
+	font-family: apercu, sans-serif;
+}
+ 
+p {
+	color:#DEC0B8;
+	padding-left:15px;
+	font-family: apercu, sans-serif;
+	line-height: 1.1;
+
+}
+
+h2 {
+	color:#DEC0B8;
+	padding-left:15px;
+	font-family: apercu, sans-serif;
+}
+
+h3 {
+	color:#DEC0B8;
+	padding-left:15px;
+	font-family: apercu, sans-serif;
+}
+
+h4 {
+	color:#DEC0B8;
+	padding-left:15px;
+	padding-bottom: 10px;
+	font-size:12px;
+	font-family: apercu, sans-serif;
+	font-weight:300;
+}
+
+h5 {
+	color:#DEC0B8;
+	padding-left:15px;
+	font-size:12px;
+	font-family: apercu, sans-serif;
+	font-weight:300;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 4em;
+}
+.pic {
+	width: 100vw;
+	height: 100vh;
+}
+#one {
+	background-color: #D97D6A;
+}
+#two {
+	background-color: #9E331E;
+}
+#three {
+	background-color: #521B10;
+}
+
+.one-active {
+			background-image: url('images/cheeseplate.jpg');
+			background-size: 50% 100vh;
+			background-repeat: no-repeat;
+			position: fixed;
+
+}
+
+.two-active {
+ 			background-image: url('images/macandcheese.jpg');
+			background-size: 50% 100vh;
+			background-repeat: no-repeat;
+			position: fixed;
+}
+
+.three-active {
+ 			background-image: url('images/sandwiches.jpg');
+			background-size: 50% 100vh;
+			background-repeat: no-repeat;
+			position: fixed;
+}
+
+.fixed-one,
+.fixed-two,
+.fixed-three {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+
+}
+
+.landing-item {
+	background-color: #d14428;
+	width:100vw;
+	padding-left: 10px;
+	font-size: 10vmin;
+	text-align: left;
+	color:white;
+	font-family:apercu;
+	font-weight:600;
+
+}
